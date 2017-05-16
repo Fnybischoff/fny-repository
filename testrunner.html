@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <!-- load code you want to test here -->
+    <script src="code/escapethemines.js"></script>
+    <!--script src="code/bowling.js"></script>-->
+    <!--<script src="code/checkword.js"></script>-->
+    <!--<script src="code/counting.js"></script>-->
+    <!--<script src="code/sudoku.js"></script>-->
+    <!--<script src="code/musicdecoder.js"></script>-->
+    <!--<script src="code/boggle.js"></script>-->
+
+    <!-- load your test files here -->
+    <script src="test/escapetheminesTest.js"></script>
+    <!--<script src="test/bowlingTest.js"></script>-->
+    <!--<script src="test/checkwordTest.js"></script>-->
+    <!--<script src="test/countingTest.js"></script>-->
+    <!--<script src="test/sudokuTest.js"></script>-->
+    <!--<script src="test/musicdecoderTest.js"></script>-->
+    <!--<script src="test/boggleTest.js"></script>-->
+
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
