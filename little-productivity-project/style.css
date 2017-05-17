@@ -1,0 +1,73 @@
+body {
+  background-color: #ECEEF6;
+  color: #184141;
+  font-family: monospace;
+}
+
+#progress-bar1, #progress-bar2, #progress-bar3 {
+  background-color: #fff;
+  height:20px;
+  width:100%;
+  border: solid 1px #fff;
+}
+
+.progress {
+  height:20px;
+  width:20px;
+  display: inline-block;
+}
+
+.topic {
+  margin-top:20px;
+}
+
+.less-btn, .more-btn {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #000;
+  font-size: 16px;
+  background: #fff;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border: none;
+  margin: 5px;
+}
+
+.less-btn:hover, .more-btn:hover {
+  color: #A59B97;
+  text-decoration: none;
+}
+
+.less-btn:focus, .more-btn:focus {
+  outline: 0;
+}
+
+input[type="text"] {
+  background-color: #ECEEF6;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #D8D0CA;
+  transition: border 0.3s;
+  font-weight: bold;
+  color: #184141;
+}
+input[type="text"]:hover {
+  background-color: #fff;
+}
+input[type="text"]:focus {
+  outline: 0;
+}
+
+.light-green {
+  background-color: #67C569;
+}
+
+.green {
+  background-color: #218D46;
+}
+
+.dark-green {
+  background-color: #025329;
+}
