@@ -9,6 +9,8 @@ body {
   height:20px;
   width:100%;
   border: solid 1px #fff;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .progress {
@@ -58,6 +60,33 @@ input[type="text"]:hover {
 }
 input[type="text"]:focus {
   outline: 0;
+}
+
+.lightPinkCircle {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+  background-color: #EFC1E6;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.mediumPurpleCircle {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+  background-color: #9370DB;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.purpleCircle {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+  background-color: #800080;
+  display: inline-block;
+  margin-bottom: -5px;
 }
 
 .light-green {
